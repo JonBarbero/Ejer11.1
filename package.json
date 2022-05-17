@@ -1,0 +1,27 @@
+{
+  "name": "ejer11.1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "connect-mongodb-session": "^3.1.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.17.2",
+    "firebase": "^9.6.10",
+    "http-errors": "~1.6.3",
+    "mongojs": "^3.1.0",
+    "morgan": "~1.9.1",
+    "require-environment-variables": "^1.2.0"
+  },
+  "devDependencies": {
+    "connect-mongo": "^4.6.0",
+    "express-session": "^1.17.2",
+    "firebase-admin": "^10.0.2"
+  }
+}
